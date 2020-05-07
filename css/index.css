@@ -1,0 +1,24 @@
+.d1
+{
+    font-size: 20px;
+    background-color: #09c;
+}
+.po
+{
+    position: absolute;
+    top: 0%;
+    right: 4%;
+}
+.x
+{
+    border: 2px solid #ccc;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+.y
+{
+    margin-top: 20px!important;
+}

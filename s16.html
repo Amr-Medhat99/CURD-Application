@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="session_16">
+        <title>session_16</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/index.css">
+    </head>
+    <body>
+        
+        <section class="f container">
+            <h1 class="text-center text-primary pt-5">Add New Product</h1>
+
+            <div class="form-group">
+                <input id="name" class="form-control" type="text" name="pro-name" maxlength="20" placeholder="Product Name"> 
+            </div>
+
+            <div class="form-group">
+                <input id="cat" class="form-control" type="text" name="pro-category" maxlength="18" placeholder="Product Category"> 
+            </div>
+            <div class="form-group">
+                <input id="prise" class="form-control" type="text" name="pro-prise" maxlength="5" placeholder="Product Prise">
+            </div>
+
+            <div class="form-group">
+                <input id="des" class="form-control" type="text" name="pro-description" placeholder="Product Description">
+            </div>
+            
+            <div class="form-group">
+                <input id="imagefile" class="form-control" name="pro-image" placeholder="Enter Image Path">
+            </div>
+
+
+            <button id="foradd" class="btn btn-primary w-25 p-3" onclick="go()">Add Product</button>
+            <button id="forupdate" class="btn btn-warning w-25 p-3" onclick="updatedata()">Update Product</button>
+
+            <div class="form-group my-5">
+                 <input onkeyup="search(this.value)" id="search" class="form-control w-75 m-auto p-4" name="txtsearch" placeholder="Search Here By Name">
+            </div>
+            
+        </section>        
+        <div class="container">
+            <h1 class="text-center text-primary">Our Product</h1>
+            <div class="row pt-4" id="data">
+                
+
+                
+            </div>
+        </div>
+
+
+
+
+        <div id="div1"></div>
+        <script src="js/jquery-3.4.1.slim.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="s16.js"></script>
+    </body>
+</html>
